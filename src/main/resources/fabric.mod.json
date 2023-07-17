@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "betterladdering",
+	"version": "${version}",
+	"name": "Better Laddering",
+	"description": "Makes interacting with ladders better",
+	"authors": [
+		"BruhCarft"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT License",
+	"icon": "assets/betterladdering/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bruhcraft.betterladdering.MainClass"
+		]
+	},
+	"mixins": [
+      "betterladdering.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
